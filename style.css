@@ -1,0 +1,126 @@
+* {
+  margin: 0;
+  padding: 0%;
+}
+
+html,
+body {
+  background: white;
+}
+
+#myVideo {
+    position: absolute;
+    top: 20%;
+    right: -180px;
+    bottom: 0;
+    min-width: 110%;
+    min-height: 110%;
+    z-index: 0;
+}
+
+.container {
+  position: absolute;
+  top: 10%;
+}
+
+.container > div {
+  box-sizing: border-box;
+  position: relative;
+  float: left;
+  width: 25%;
+  height: 25vw;
+  padding: 3%;
+  border: -5px solid white;
+  z-index: 1;
+}
+
+.topContainer {
+  display: flex;
+  justify-content: center;
+  z-index: 10;
+}
+
+.insideBackground {
+  width: 223px;
+  height: 1000px;
+  background-color: red;
+  z-index: 11;
+}
+
+br3 {
+  width: 5vw;
+  font-size: 5vw;
+  padding-left: 10%;
+  position: fixed;
+  z-index: 2;
+
+}
+
+#pollvote{
+  position: absolute;
+  z-index: 3;
+  margin: 0;
+}
+
+#pollvote2{
+  position: absolute;
+  z-index: 4;
+  padding-top: 210px;
+}
+
+#pollvote3{
+  position: absolute;
+  z-index: 5;
+  padding-top: 420px;
+}
+
+#pollvote4{
+  position: absolute;
+  z-index: 6;
+  padding-top: 620px;
+}
+
+
+/* .red {
+  background-color: red;
+}
+
+.yellow {
+  background-color: yellow;
+}
+
+.blue {
+  background-color: blue;
+}
+
+.pink {
+  background-color: pink;
+} */
+
+img {
+  width: 100%;
+  height: auto;
+}
+
+h1 {
+  text-align: center;
+  margin: 5px auto;
+  padding: 1px;
+  color: white;
+  font-family:'IBM Plex Mono', monospace;
+  font-weight: bold;
+  text-transform: uppercase;
+  background-color: red;
+}
+
+p {
+  text-align: center;
+  margin: 10px auto;
+  padding: 20px;
+  color: white;
+  font-family:'IBM Plex Mono', monospace;
+  font-weight: bold;
+  font-size: 10px;
+  text-transform: uppercase;
+  background-color: red;
+}
